@@ -1,0 +1,36 @@
+.root{
+    display: flex;
+    width: 100%;
+}
+.expense-item{
+    display: flex;
+    width: 100%;
+    background-color: mintcream;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.expense-item,.description{
+    flex-grow:1;
+    font-size: 18px;
+    margin-left: 5px;
+
+}
+.expense-item,.amount{
+    padding: 5px;
+    border-radius: 3px;
+}
+.expense p{
+    color: red;
+}
+.expense, .amount{
+    /* background-color: red; */
+   
+}
+.income p{
+    color: green;
+}
+.income, .amount{
+    /* background-color: green; */
+   
+}

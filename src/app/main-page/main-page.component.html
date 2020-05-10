@@ -1,0 +1,21 @@
+<div class="top-bar" id="myclass">
+    <h2>Expense Tracker</h2>
+<div class="balance">
+    <h1>Total Balance</h1>
+</div>
+<div class="total-budget-section">
+    <h2>${{totalAmount}}</h2>
+</div>
+
+<app-expense-item-list [expenseItems]="expenseItems">
+
+</app-expense-item-list>
+
+
+ <section class="add-item-section">
+     <div class="add-item-container">
+        <app-add-item-form style="padding: 20px;" (formSubmit)="addItem($event)">
+
+        </app-add-item-form>
+     </div>
+ </section>

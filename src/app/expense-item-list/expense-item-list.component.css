@@ -1,0 +1,31 @@
+.expense-item-section{
+    display: flex;
+    padding: 50px;
+}
+.expense-item-container{
+    display: flex;
+    max-width: 900px ;
+    height: 100%;
+    width: 100%;
+}
+.income-column, .expense-column{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+.income-column,.expense-column, .budget-items{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+h1{
+    font-size: 24px;
+}
+.income-column{
+    margin-right: 35px;
+    color:green;
+}
+.expense-column{
+    color: #C80000;
+}

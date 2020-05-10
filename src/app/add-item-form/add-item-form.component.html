@@ -1,0 +1,27 @@
+<form #itemForm="ngForm" (ngSubmit)= "onSubmit(itemForm)">
+    <div class="field is-horizontal">
+        <div class="field-body">
+            <h1>Add new Transaction</h1>
+            <div class="field">Text
+                <p class="control">
+                    <input type="text" required name="description" class="input" placeholder="Enter text.." [ngModel]="item.description">
+
+                </p>
+            </div>
+
+            <div class="field">Amount
+                (negative-expense, positive-income)
+                <p class="control">
+                    <input type="number" required name="amount" class="input" placeholder="Enter amount.." [ngModel]="item.amount">
+
+                </p>
+            </div>
+
+            <div class="field">
+                    <button type="submit" class="button is-primary" [disabled]="!itemForm.valid">Add transaction</button>
+            </div>
+
+
+        </div>
+    </div> 
+</form>

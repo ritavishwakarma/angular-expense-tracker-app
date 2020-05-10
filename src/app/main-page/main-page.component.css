@@ -1,0 +1,18 @@
+.top-bar {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+#myclass{
+    width: 400px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.total-budget-section{
+    display: flex;
+    height: 50px;
+}
